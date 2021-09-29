@@ -1,0 +1,306 @@
+.container{
+    width: 40rem;
+    height: 40rem;
+    background-color:blanchedalmond;
+  
+    margin-top: 0;
+}
+.head-outer{
+    width: 14rem;
+    height: 14rem;
+    border: 2px solid black;
+    background-color: rgb(82, 150, 228);
+    border-radius: 50%;
+    position: relative;
+    left: 12rem;
+    top: 3rem;
+}
+.eye-left{
+    width: 1.7rem;
+    height: 2rem;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    left: 5rem;
+    top:0.3rem;
+    z-index: 2;
+    
+}
+.eye-right{
+    width: 1.7rem;
+    height: 2rem;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    left: 6.9rem;
+    bottom: 2rem;
+    z-index: 2;
+}
+.lefteye-inner{
+    width: 0.5rem;
+    height: 0.8rem;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 0.8rem;
+    top: 0.45rem;  
+}
+.righteye-inner{
+    width: 0.5rem;
+    height: 0.8rem;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 0.1rem;
+    top: 0.5rem
+
+    
+    
+}
+.left-innereye{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    top: 0.2rem;
+    left:0.2rem;
+      
+}
+.right-innereye{
+    width: 0.3rem;
+    height: 0.3rem;
+  
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    top:0.2rem;
+    left: 0.05rem;
+
+    
+      
+}
+.face{
+    width: 11.5rem;
+    height: 12rem;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 2.6rem;
+    left:1.2rem;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.nose{
+    width: 1.1rem;
+    height: 1.1em;
+    border: 2px solid black;
+    background-color: rgb(184, 21, 21);
+    border-radius: 50%;
+    position: relative;
+    left: 4.9rem;
+    top:0.1rem;
+}
+.nose-inner{
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 1px solid rgb(184, 21, 21);
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position:relative;
+    left:0.2rem;
+    top:0.1rem;
+}
+.upperlip-line{
+    width: 0;
+    height: 2.8rem;
+    border: 1px solid black;
+    position: relative;
+    left: 5.5rem;
+    top: 0.15rem;
+   
+}
+.mousetache{
+    width: 3.2rem;
+    height: 0;
+    border: 1px solid black;
+    z-index: 2;
+}
+.one{
+    transform: rotateZ(20deg);
+    position: relative;
+    bottom: 1.8rem;
+    left: 1.3rem;
+}
+.two{
+    position: relative;
+    bottom: 1rem;
+    left: 1.15rem;
+}
+.three{
+    transform: rotateZ(-10deg);
+    position: relative;
+    bottom: 0.3rem;
+    left: 1.15rem; 
+}
+.four{
+    transform: rotateZ(-20deg);
+    position: relative;
+    bottom: 2.25rem;
+    left: 6.6rem;
+}
+.five{
+  
+    position: relative;
+    bottom: 1.4rem;
+    left: 6.7rem;
+}
+.six{
+    transform: rotateZ(10deg);
+    position: relative;
+    bottom: 0.7rem;
+    left: 6.7rem;
+}
+.ear-left{
+    width: 1.5rem;
+    height: 2.7rem;
+    border-left: 2px solid black;
+    border-right:  whitesmoke;
+    border-bottom:2px solid black;
+    border-top: 2px solid black;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+    position: relative;
+    bottom: 2.5rem;
+    right: 1rem;
+
+
+}
+.ear-right{
+    width: 1.5rem;
+    height: 2.7rem;
+    border-right: 2px solid black;
+    border-left:  whitesmoke;
+    border-bottom:2px solid black;
+    border-top: 2px solid black;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    position: relative;
+    bottom: 5.45rem;
+    left: 10.7rem;
+}
+
+
+.mouth{
+    width: 10.1rem;
+    height: 5rem;
+    border: 2px solid black;
+    position: relative;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color:rgb(184, 21, 21);
+    position: relative;
+    bottom: 5.6rem;
+    left:0.6rem;
+}
+.neck{
+    width: 7rem;
+    height: 0.5rem;
+    border: 3px solid black;
+    background-color:rgb(184, 21, 21);
+    border-radius: 5rem;
+    /* border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem; */
+    position: relative;
+    bottom: 4.2rem;
+    left: 2rem
+}
+.body{
+    width:9rem;
+    height: 7rem;
+    border: 2px solid black;
+    position: relative;
+    bottom: 4.2rem;
+    left: 0.9rem;
+    background-color: rgb(82, 150, 228);
+    border-top: transparent;
+   
+    border-radius: 0.7rem;
+}
+.mid{
+    width:1rem;
+    height:1rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 4.3rem;
+    left:5rem;
+    border-bottom: none;
+}
+.leg{
+    width: 4.3rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-top: none;
+    position: relative;
+    bottom: 5.5rem;
+    left: 0.7rem;
+    border-radius: 60%;
+}
+.leg-two{
+    width: 4rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-top: none;
+    position: relative;
+    bottom: 7.5rem;
+    left: 6rem;
+    border-radius: 60%;
+}
+.arm-left{
+    width: 2rem;
+    height: 4rem;
+    border: 2px solid black;
+    background-color: rgb(82, 150, 228);
+    position: relative;
+    bottom: 20.5rem;
+    right: 0.8rem;
+    transform: rotateZ(-45deg);
+}
+.arm-right{
+    width: 2rem;
+    height: 4rem;
+    border: 2px solid black;
+    background-color: rgb(82, 150, 228);
+    position: relative;
+    bottom: 24.8rem;
+    left: 9.8rem;
+    transform: rotateZ(45deg);
+}
+.lhand{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30.3rem;
+    right: 3.2rem;
+}
+.rhand{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 33.1rem;
+    left: 11.7rem;
+}
